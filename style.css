@@ -17,8 +17,7 @@ body {
 h1,h2,h3,h4,h5,h6{
   font-family: var(--heading-font-family);
   color:var(--text-color);
-  font-weight:bold;
-}
+  }
 
 .hero{
 background: var(--background-header);
@@ -30,6 +29,7 @@ h1,
 h2,
 h3 {
   margin: 0;
+  line-height: 1.5;
 }
 
 h1 {
@@ -56,10 +56,14 @@ h2 {
 
 p {
   font-size: 18px;
-  line-height: 30px;
-  font-weight: normal;
+  line-height: 2;
+  padding: 10px 5px;
 }
 
+.text-center{
+color: var(--primary-color);
+font-weight: bold;
+}
 
 .navigation-links {
   display: flex;
