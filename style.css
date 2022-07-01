@@ -30,18 +30,23 @@ padding: 60px 20px;
 h1,
 h2,
 h3 {
-  margin: 0;
-  line-height: 1.5;
+  margin: 20px;
+  line-height: 1;
 }
 
 h1 {
-  font-size: 84px;
+  font-size: 60px;
+}
+
+h4 {
+  font-size: 30px;
+  font-style: bold;
 }
 
 .hero h2 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .hero h3 {
@@ -52,14 +57,13 @@ h1 {
   }
 
 h2 {
-  font-size: 64px;
+  font-size: 44px;
   
 }
 
 p {
   font-size: 18px;
-  line-height: 2;
-  padding: 10px 5px;
+  line-height: 1.5;
 }
 
 .text-center{
@@ -86,6 +90,11 @@ font-weight: bold;
   background: var(--secondary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+.logo{
+  max-width: 60px;
+  padding: 3px;
 }
 
 .primary-link:hover {
@@ -119,7 +128,7 @@ font-weight: bold;
   margin: 10px;
 }
 
-.email-link .twitter-link .instagram-link{
+.email-link, .twitter-link, .instagram-link{
   display: flex;
   justify-content: center;
   color: var(--primary-color);
@@ -127,9 +136,9 @@ font-weight: bold;
   text-decoration: none;
 }
 
-.email-link:hover  .twitter-link:hover .instagram-link:hover{
+.email-link:hover,  .twitter-link:hover, .instagram-link:hover{
   text-decoration: underline;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .content-container h1{
@@ -161,17 +170,32 @@ font-size: 18px;
   line-height: 1.5;
   }
 
-  .content p {
+.content p {
       font-size: 14px;
+ }
+
+.nav-link{
+    color: var(--primary-color);
+    }
+ .nav-link:hover{
+  text-decoration: underline;
+  color: var(--secondary-color);
+ }
+.navbar-brand{
+  color: var(--primary-color);
+ }
+ .navbar-brand:hover {
+   color: var(--secondary-color);
  }
 
 @media (max-width: 700px) {
 
   h1 {
-    font-size: 44px;
-    line-height: 1.5;
+    font-size: 40px;
+    line-height: 1;
   }
-    .content-container h1 {
+  
+  .content-container h1 {
       font-size: 44px;
       line-height: 1.5;
     }
@@ -179,8 +203,9 @@ font-size: 18px;
   h2 {
     font-size:30px;
     text-align: center;
-    margin-top: 5px;
-    
+    margin-top: 0px;
+    margin-bottom: 2px;
+  line-height: 2;
   }
 
 .hero h3 {
@@ -194,6 +219,7 @@ p {
     text-align: center;
     font-size: 16px;
     color: var(--primary-color);
+    line-height: 1.2;
   }
 
   .project-link {
@@ -205,4 +231,34 @@ p {
   .hero{
     padding: 0px 0px;
   }
+}
+
+footer{
+  margin: 60px;
+  margin-bottom: 60px;
+}
+
+footer .social-links a{
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 13px  ;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+color: white;
+background-color: var(--primary-color);
+}
+
+footer .contact-box{
+  background: var(--background-header);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+footer .contact-box p{
+  margin: 0 20px;
 }
