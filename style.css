@@ -35,7 +35,7 @@ h3 {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 80px;
 }
 
 .hero h2 {
@@ -52,8 +52,7 @@ h1 {
   }
 
 h2 {
-  font-size: 44px;
-  
+  font-size: 36px;
 }
 
 p {
@@ -137,12 +136,11 @@ font-weight: bold;
 }
 
 .content-container h1{
-  font-size: 60px;
+  font-size: 54px;
 }
 
 .content-container{
   padding: 60px 20px;
-  
 }
 
 .content{
@@ -151,7 +149,7 @@ font-weight: bold;
 
 .content h1 {
   line-height: 80px;
-  font-size: 64px;
+  font-size: 54px;
 }
 
 .content h2{
