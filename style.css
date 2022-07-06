@@ -165,9 +165,6 @@ font-size: 18px;
   line-height: 1.5;
   }
 
-.content p {
-      font-size: 14px;
- }
 
 .nav-link{
     color: var(--primary-color);
@@ -263,6 +260,3 @@ list-style: none;
 font-size: 18px;
 }
 
-.picture-link:hover {
-transform: scale(1.3);
-}
