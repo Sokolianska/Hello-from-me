@@ -258,5 +258,6 @@ footer .contact-box h3 {
 .container li{
 list-style: none;
 font-size: 18px;
+font-family: var(--default-font-family);
 }
 
