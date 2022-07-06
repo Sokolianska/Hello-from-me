@@ -116,10 +116,12 @@ font-weight: bold;
 
 .about-paragraphs {
   margin: 30px 0;
+  color: var(--secondary-color);
 }
 
 .about-paragraphs p {
   margin: 10px;
+  color:var(--text-color);
 }
 
 .email-link, .twitter-link, .instagram-link{
@@ -181,7 +183,7 @@ font-size: 18px;
    color: var(--secondary-color);
  }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
  h1 {
     font-size: 40px;
@@ -254,4 +256,8 @@ footer .contact-box p{
 
 footer .contact-box h3 {
   margin: 0 10px;
+}
+
+.container li{
+list-style: none;
 }
