@@ -120,8 +120,8 @@ font-weight: bold;
 }
 
 .about-paragraphs p {
-  margin: 10px;
   color:var(--text-color);
+  font-size:smaller;
 }
 
 .email-link, .twitter-link, .instagram-link{
@@ -260,4 +260,9 @@ footer .contact-box h3 {
 
 .container li{
 list-style: none;
+font-size: 18px;
+}
+
+.picture-link:hover {
+transform: scale(1.3);
 }
